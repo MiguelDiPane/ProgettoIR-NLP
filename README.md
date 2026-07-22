@@ -23,9 +23,6 @@ Script dedicati all'adattamento efficiente dei parametri (Parameter-Efficient Fi
 **5. Valutazione Post-Finetuning**
 * `risposte_modelli_post_finetuning.ipynb`: Generazione finale e valutazione quantitativa. Misurazione dei miglioramenti sfruttando metriche avanzate di Natural Language Generation (es. BLEU, BERTScore, MAUVE) per validare la coerenza semantica e sintattica delle reti neurali addestrate.
 
-**6. Documentazione Completa**
-* `relazioneNLP.pdf`: Documento tecnico-teorico del progetto. Contiene la formalizzazione matematica, i dettagli architetturali, i grafici di valutazione e il confronto critico tra le prestazioni dei vari modelli analizzati.
-
 ## Tecnologie e Librerie Principali
 * `transformers`, `peft`, `trl`, `bitsandbytes` (per l'addestramento e quantizzazione LLM).
 * `sentence-transformers`, `evaluate`, `nltk`, `bert_score` (per embedding e valutazione metrica).
